@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern bakery</title>
+    <!-- Google Fonts 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet"> -->
+    <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -29,19 +34,22 @@
             <h1 class="hero-title"><span class="accent">Modern</span>bakery</h1>
         </section>
         <section id="traditional-section">
-            <h2 class="section-title">A new format for traditions</h2>
             <ul class="advantages-list  ">
-                <li>High demand in the market</li>
-                <li>Affordable formats</li>
-                <li>Experienced management team</li>
+                <li class="advantages-item">High demand in the market</li>
+                <li class="advantages-item">Affordable formats</li>
+                <li class="advantages-item">Experienced management team</li>
             </ul>
-            <p>
-                <span>Shop bakery</span> - is a bakery that has taken the best of everything and preserved the taste of
+            <h2 class="section-title">A new format for traditions</h2>
+            <p class="traditional-text">
+                <span class="brand uppercase">Shop bakery</span> - is a bakery that has taken the best of everything and
+                preserved
+                the taste of
                 traditional pastries and the
                 natural quality of the ingredients.
             </p>
-            <p>
-                We work like the most famous network — <span>5 minutes and your order is ready</span>.And our bakeries
+            <p class="traditional-text">
+                We work like the most famous network — <span class="brand">5 minutes and your order is ready</span>.And
+                our bakeries
                 also have stylish designand
                 high-quality service!
             </p>
@@ -54,7 +62,7 @@
             <ul>
                 <li>
                     <article>
-                        <h3>Nastya</h3>
+                        <h3 class="chef-title">Nastya</h3>
                         <p>Hello, I'm Nastya!</p>
                         <p>For 10 years now, I have been bringing interesting and delicious ideas to life.</p>
                         <p>I'll bake the most delicious pastries for you!</p>
@@ -62,7 +70,7 @@
                 </li>
                 <li>
                     <article>
-                        <h3>Vlad</h3>
+                        <h3 class="chef-title">Vlad</h3>
                         <p>Hi, I'm Vlad!</p>
                         <p>My experience as a pastry chef is already 18 years! SHOP BAKERY - is our love, which we share
                             with
@@ -79,17 +87,37 @@
             <ul>
                 <li>
                     <article>
-                        <h3>Walrus</h3>
+                        <h3 class="format-title">Walrus</h3>
+                        <div class="format-text">
+                            <p>Area: up to 120 m²</p>
+                            <p>Menu: extended menu</p>
+                            <p>Staff: 2 sales-cashiers, 2 bakers, 2 baker assistants, 2 waiters-general workers</p>
+                            <p>Seating: available</p>
+                        </div>
                     </article>
                 </li>
                 <li>
                     <article>
-                        <h3>Horseshoe</h3>
+                        <h3 class="format-title">Horseshoe</h3>
+                        <div class="format-text">
+                            <p>Area: up to 25 m²</p>
+                            <p>Menu: most popular menu items</p>
+                            <p>Staff: 2 sales cashiers, 2 bakers, 1 baker's assistant</p>
+                            <p>Workstations: none</p>
+                        </div>
+
                     </article>
                 </li>
                 <li>
                     <article>
-                        <h3>Handlebal</h3>
+                        <h3 class="format-title">Handlebal</h3>
+                        <div class="format-text">
+                            <p>Area: up to 15 m²</p>
+                            <p>Menu: most popular menu items</p>
+                            <p>Staff: 1 salesperson, 1 baker, 1 assistant baker</p>
+                            <p>Seating: none</p>
+                        </div>
+
                     </article>
                 </li>
             </ul>
@@ -99,6 +127,7 @@
         </section>
         <section id="contact-section">
             <h2 class="section-title">Join the bakery network</h2>
+            <p>Fill out the form so that we can get in touch with you!</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636289098733!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2sSichovykh%20Striltsiv%20St%2C%2054%2C%20Kyiv%2C%20Ukraina%2C%2002000!5e0!3m2!1spl!2spl!4v1762095536468!5m2!1spl!2spl"
                 width="603" height="595" style="border:0;" allowfullscreen="" loading="lazy"
@@ -112,17 +141,19 @@
             </a>
             </a>
             <ul>
-                <li><a href="#">Traditions</a></li>
-                <li><a href="#">Chefs</a></li>
-                <li><a href="#">Formats</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a class="link" href="#">Traditions</a></li>
+                <li><a class="link" href="#">Chefs</a></li>
+                <li><a class="link" href="#">Formats</a></li>
+                <li><a class="link" href="#">Contacts</a></li>
             </ul>
         </nav>
         <address>
             <ul>
-                <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-                <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
-                <li><a href="https://maps.app.goo.gl/vGjJquSEk9UMuA128" target="_blank">Україна, м. Київ, вул. Січових
+                <li><a class="Fill out the form so that we can get in touch with you!" href="tel:+380960000007">+ 38
+                        (096) 000 00 07</a></li>
+                <li><a class="address-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
+                <li><a class="address-link" href="https://maps.app.goo.gl/vGjJquSEk9UMuA128" target="_blank">Україна, м.
+                        Київ, вул. Січових
                         Стрільців 54</a></li>
                 <li>
                     <a href="#"> <!-- facebook icon--></a>
@@ -131,8 +162,8 @@
                     <a href="#"><!-- ig icon--></a>
                 </li>
             </ul>
-            <a href="#" target="_blank">Privacy Policy</a>
-            <p>&copy; 2022 Дані захищені</p>
+            <a class="address-link" href="#" target="_blank">Privacy Policy</a>
+            <p class="address-co">&copy; 2022 Дані захищені</p>
         </address>
     </footer>
 </body>
